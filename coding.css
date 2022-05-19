@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./background/background.jpg");
+    background-size: cover;
+    font-family:"courier new"
+}
+
+.sfondo{
+    width: 60%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20% auto;
+    border-radius: 20px ;
+}
+
+img{
+    width: 20%;
+}
+
+header{
+    text-align: center;
+    padding-top: 5%;
+}
+
+h1{color: lime;}
+
+.pulsanti{
+    background-color: lime;
+    height: 40px;
+    align-items: center;
+    border-radius: 3px ;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 3px;
+}
+
+main{
+    color: white;
+}
+
+#rettangolo{
+    width:35%;
+    height:30px;
+    background:rgb(236, 165, 83);
+    border-radius: 3px ;
+}
+#rettangolo2{
+    width:60%;
+    height:30px;
+    background:rgb(43, 206, 37);
+    border-radius: 3px ;
+}
+#rettangolo3{
+    width:10%;
+    height:30px;
+    background:rgb(228, 75, 75);
+    border-radius: 3px ;
+}
+
+.elemento1{
+    padding-top: 20px;
+    text-align: justify;
+}
+.elemento2{
+    padding-top: 20px;
+    text-align: justify;
+}
+.elemento3{
+    padding-top: 20px;
+    padding-bottom: 5%;
+    text-align: justify;
+
+}
